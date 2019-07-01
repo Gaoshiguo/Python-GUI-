@@ -13,3 +13,9 @@ root.mainloop()
 生成的第一个图形化的界面如下图所示：
 
 ![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/1.png)
+
+## 1.1 介绍一下tkinter的常用控件
+
+| 控件 |名称|作用|
+|-----|------|-----|
+|Button|按钮|单击可以触发相应的事件|
