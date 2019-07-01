@@ -56,4 +56,4 @@ root.mainloop()
 ```
 此段代码生成后的效果图如下所示：
 
-![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/1.png)
+![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/2.png)
