@@ -37,3 +37,23 @@ root.mainloop()
 *以将一个 Python 函数或方法绑定到一个 Button 控件. 这个函数或方法将在按钮被点击时执行，这样我们就可以实现交互
 
 button控件的一些参数代表的意思及用法。activebackground, activeforeground:{类型：颜色；说明：当按钮被激活时所使用的颜色}，background (bg), foreground (fg):{类型：颜色；说明：按钮的颜色。默认值与特定平台相关},borderwidth (bd)：{类型：整数；说明：按钮边框的宽度。默认值与特定平台相关。但通常是1或2象素}，command：{类型：回调；说明：当按钮被按下时所调用的一个函数或方法。所回调的可以是一个函数、方法或别的可调用的Python对象}
+
+通常button控件都是与某些回调函数连用，以实现交互的效果。
+假设我们需要当用户点击按钮后弹出一个对话框的需求
+
+```python
+from tkinter import *
+from tkinter.messagebox import *
+root= Tk()
+def printmessagr():
+    showinfo(title='提示', message='您点击了按钮')
+    
+bt=Button(root,text="点击我",command=printmessagr)
+bt.pack()
+root.title('我的第一个Python窗体')
+root.geometry('240x240') # 这里的乘号不是 * ，而是小写英文字母 x
+root.mainloop()
+```
+此段代码生成后的效果图如下所示：
+
+![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/1.png)
