@@ -11,3 +11,5 @@ root.geometry('240x240') # 这里的乘号不是 * ，而是小写英文字母 x
 root.mainloop()
 ```
 生成的第一个图形化的界面如下图所示：
+
+![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/1.png)
