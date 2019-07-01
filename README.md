@@ -34,3 +34,6 @@ root.mainloop()
 |Toplevel |新建窗体容器 | 在顶层创建新窗体|
 
 ### 1.1.1 Button控件的使用方法
+*以将一个 Python 函数或方法绑定到一个 Button 控件. 这个函数或方法将在按钮被点击时执行，这样我们就可以实现交互
+
+button控件的一些参数代表的意思及用法。activebackground, activeforeground:{类型：颜色；说明：当按钮被激活时所使用的颜色}，background (bg), foreground (fg):{类型：颜色；说明：按钮的颜色。默认值与特定平台相关},borderwidth (bd)：{类型：整数；说明：按钮边框的宽度。默认值与特定平台相关。但通常是1或2象素}，command：{类型：回调；说明：当按钮被按下时所调用的一个函数或方法。所回调的可以是一个函数、方法或别的可调用的Python对象}
