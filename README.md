@@ -32,3 +32,5 @@ root.mainloop()
 |Scrollbar |滑动条 |默认垂直方向，课鼠标拖动改变数值，可与 Text、Lisbox、Canvas等控件配合移动可视化空间 |
 |Text |文本框 |接收或输出显示多行文本 |
 |Toplevel |新建窗体容器 | 在顶层创建新窗体|
+
+### 1.1.1 Button控件的使用方法
