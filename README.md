@@ -145,4 +145,7 @@ root.geometry('800x400')
 root.title('四则运算计算器')
 root.mainloop()
 ```
+最后的效果图如下所示：
+![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/3.png)
+
 
