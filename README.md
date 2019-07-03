@@ -146,6 +146,7 @@ root.title('四则运算计算器')
 root.mainloop()
 ```
 最后的效果图如下所示：
+
 ![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/3.png)
 
 假如我想要使用text控件来实现将文本框中的内容作为文件保存到指定文件夹中。实现的功能类似于notepad
@@ -153,6 +154,8 @@ root.mainloop()
 ![代码](https://github.com/Gaoshiguo/Python-GUI-/blob/master/notepad.py)
 
 效果图如下图所示：
+
 ![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/4.png)
+
 ![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/5.png)
 
