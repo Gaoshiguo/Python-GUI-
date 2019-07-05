@@ -161,5 +161,12 @@ root.mainloop()
 
 制作一个文件选择对话框，并将选择的图片显示在图形化界面中
 
+生成的效果如下图所示：
+
+![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/6.png)
+
+![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/7.png)
+
+![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/8.png)
 
 
