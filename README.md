@@ -151,11 +151,15 @@ root.mainloop()
 
 假如我想要使用text控件来实现将文本框中的内容作为文件保存到指定文件夹中。实现的功能类似于notepad
 
-[代码](https://github.com/Gaoshiguo/Python-GUI-/blob/master/notepad.py)
+[代码链接](https://github.com/Gaoshiguo/Python-GUI-/blob/master/notepad.py)
 
 效果图如下图所示：
 
 ![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/4.png)
 
 ![image](https://github.com/Gaoshiguo/Python-GUI-/blob/master/image/5.png)
+
+制作一个文件选择对话框，并将选择的图片显示在图形化界面中
+
+
 
